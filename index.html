@@ -9,28 +9,49 @@
 </head>
 <body>
 
-  <!-- ===== Navigation ===== -->
+  <!-- ===== Navigation (5 items) ===== -->
   <nav aria-label="Main navigation">
     <div class="container">
       <span class="logo">Robert Hung Nguyen</span>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#qualifications">Qualifications</a></li>
-        <li><a href="#objectives">Objectives</a></li>
-        <li><a href="#contributions">Contributions</a></li>
-        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#career-plan">Career Plan</a></li>
-        <li><a href="#ai-learning">AI &amp; Learning</a></li>
+        <li><a href="#career-plan" class="nav-locked">Career Plan <span class="lock-icon" aria-hidden="true">🔒</span></a></li>
+        <li><a href="#ai-learning" class="nav-locked">AI &amp; Learning <span class="lock-icon" aria-hidden="true">🔒</span></a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ===== Hero / Header ===== -->
+  <!-- ===== Hero ===== -->
   <header class="hero" id="top">
     <div class="container">
       <h1>Nguyễn Tấn Hưng (Robert)</h1>
       <p class="title">Delivery Manager &amp; Scrum Master</p>
+
+      <!-- Key metrics -->
+      <div class="stat-bar">
+        <div class="stat">
+          <span class="stat-number">13+</span>
+          <span class="stat-label">Years Agile</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">Zero</span>
+          <span class="stat-label">Downtime · 12 months</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">9→3</span>
+          <span class="stat-label">Month Deploy Cycle</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">2 mo</span>
+          <span class="stat-label">Scrumban Transition</span>
+        </div>
+      </div>
+
       <div class="contact-bar">
         <a href="mailto:nthung2411@gmail.com">
           <span class="icon">✉</span>nthung2411@gmail.com
@@ -39,7 +60,10 @@
           <span class="icon">📞</span>(+84) 936&nbsp;334&nbsp;317
         </a>
         <a href="https://www.linkedin.com/in/robert-hung-nguyen/" target="_blank" rel="noopener noreferrer">
-          <span class="icon">🔗</span>LinkedIn Profile
+          <span class="icon">🔗</span>LinkedIn
+        </a>
+        <a href="https://docs.google.com/document/d/1fSfnytVxTFZOSveTcEJRZYcxvsKAAQoOA4wGVdjI2TM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-download">
+          ↓ Download CV
         </a>
       </div>
     </div>
@@ -47,102 +71,47 @@
 
   <main>
 
-    <!-- ===== About / Summary ===== -->
-    <section class="section summary" id="about">
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
       <div class="container">
         <h2>About Me</h2>
-        <p>
-          Building upon 13+ years of hands-on experience in Agile environments, I have honed my skills as a Delivery Manager and Scrum Master, consistently bridging the gap between business objectives and technical execution. My career is marked by a proven ability to transform teams, streamline deployment pipelines, and ensure product stability – as evidenced by successfully transitioning a non-agile team to Scrumban within two months and achieving zero downtime for a SaaS product over the past year.
+        <p class="about-lead">
+          Delivery Manager and Scrum Master with 13+ years in Agile environments, consistently bridging business objectives and technical execution. Known for transforming teams, streamlining deployment pipelines, and maintaining high reliability across e-commerce, mobile, education, and inspection software domains.
         </p>
-        <br />
-        <p>
-          My domain knowledge spans diverse sectors, including e-commerce, mobile application development (particularly hybrid applications), educational systems, and vehicle inspection software. This breadth of experience allows me to quickly grasp the nuances of different business models and tailor Agile practices to specific industry needs.
-        </p>
-        <br />
-        <p>
-          My expertise extends to translating complex business requirements into clear technical language, fostering effective communication, and driving high-quality product delivery, making me a valuable asset for senior leadership roles.
-        </p>
-      </div>
-    </section>
 
-    <!-- ===== Qualifications & Objectives ===== -->
-    <section class="section" id="qualifications">
-      <div class="container">
-        <h2>Qualifications &amp; Certifications</h2>
-        <div class="two-col">
-          <div class="card">
-            <h3>Certifications</h3>
-            <ul>
-              <li>Certified Scrum Master – Scrum Alliance (2020)</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Education</h3>
-            <ul>
-              <li>Open University, HCMC (2012 – 2014)</li>
-              <li>Information Technology College, HCMC (2007 – 2012)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Personal Objectives ===== -->
-    <section class="section" id="objectives">
-      <div class="container">
-        <h2>Personal Objectives</h2>
-        <div class="two-col">
-          <div class="card">
-            <h3>Short-term Goal</h3>
-            <ul>
-              <li>Complete PSM I &amp; PSM II certifications (target: Q2/2026 – Q1/2027)</li>
-              <li>Build and maintain a monthly Delivery KPI dashboard</li>
-              <li>Standardise quarterly planning and risk review cadence</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Long-term Goal</h3>
-            <ul>
-              <li>Obtain Project Management Professional Certification (PMP / PMI)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Company Contributions ===== -->
-    <section class="section" id="contributions">
-      <div class="container">
-        <h2>Key Contributions</h2>
-        <div class="card">
-          <ul>
-            <li>Transformed a traditional team to Scrumban, improving team efficiency, communication, and product quality.</li>
-            <li>Set up a high-efficiency deployment pipeline, speeding up the release process and enabling more frequent deployments.</li>
-            <li>Ensured zero downtime for the SaaS product over the past year, demonstrating a strong focus on reliability and customer satisfaction.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Previous Positions ===== -->
-    <section class="section" id="experience">
-      <div class="container">
-        <h2>Work Experience</h2>
-        <div class="card">
-          <div class="timeline">
-            <div class="timeline-item">
-              <span class="period">2021 – Present</span>
-              <span class="role">Delivery Manager / Scrum Master</span>
-            </div>
-            <div class="timeline-item">
-              <span class="period">2018 – 2021</span>
-              <span class="role">Team Leader / Scrum Master</span>
-            </div>
-            <div class="timeline-item">
-              <span class="period">2013 – 2018</span>
-              <span class="role">Senior Software Engineer</span>
+        <div class="quals-row">
+          <div class="qual-card">
+            <span class="qual-icon">🏅</span>
+            <div>
+              <strong>Certified Scrum Master</strong>
+              <span>Scrum Alliance · 2020</span>
             </div>
           </div>
+          <div class="qual-card">
+            <span class="qual-icon">🎓</span>
+            <div>
+              <strong>Open University HCMC</strong>
+              <span>2012 – 2014</span>
+            </div>
+          </div>
+          <div class="qual-card">
+            <span class="qual-icon">💻</span>
+            <div>
+              <strong>IT College HCMC</strong>
+              <span>2007 – 2012</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="domain-tags">
+          <span class="domain-tag">E-Commerce SaaS</span>
+          <span class="domain-tag">Hybrid Mobile Apps</span>
+          <span class="domain-tag">Education Systems</span>
+          <span class="domain-tag">Vehicle Inspection Software</span>
+          <span class="domain-tag">Scrumban</span>
+          <span class="domain-tag">DevOps / CI-CD</span>
+          <span class="domain-tag">Kubernetes</span>
+          <span class="domain-tag">Stakeholder Management</span>
         </div>
       </div>
     </section>
@@ -150,7 +119,7 @@
     <!-- ===== Projects ===== -->
     <section class="section" id="projects">
       <div class="container">
-        <h2>Previous Projects</h2>
+        <h2>Work &amp; Projects</h2>
 
         <!-- WiseRobot -->
         <article class="project-card">
@@ -308,185 +277,372 @@
       </div>
     </section>
 
-    <!-- ===== Career Development Plan ===== -->
+    <!-- ===== Career Development Plan (PROTECTED) ===== -->
     <section class="section" id="career-plan">
       <div class="container">
-        <h2>Career Development Plan (2026 – 2035)</h2>
-        <p class="section-intro">
-          Focused on measurable delivery and business-adjacent outcomes, this plan charts a path from team-level delivery excellence to portfolio-level leadership.
-        </p>
 
-        <div class="plan-direction card" style="margin-bottom:1.75rem;">
-          <h3>Long-Term Career Direction</h3>
-          <div class="two-col" style="margin-top:0.75rem;">
-            <div>
-              <strong>Primary path</strong>
-              <p>Senior Delivery Manager → Delivery Director → Head of Delivery</p>
-            </div>
-            <div>
-              <strong>Alternative path</strong>
-              <p>Program Manager → Senior Program Manager → Transformation Lead</p>
-            </div>
+        <div class="protected-header">
+          <h2>Career Development Plan (2026–2035)</h2>
+          <button class="unlock-btn" data-section="career-plan" aria-label="Unlock Career Plan section">
+            <span class="lock-icon" aria-hidden="true">🔒</span> Unlock
+          </button>
+        </div>
+
+        <!-- Locked state -->
+        <div class="protected-gate" id="career-plan-gate">
+          <div class="gate-content">
+            <span class="gate-icon" aria-hidden="true">🔒</span>
+            <p>Personal career progression — password protected.</p>
+            <button class="unlock-btn-large" data-section="career-plan">Unlock to View</button>
           </div>
         </div>
 
-        <div class="phases">
+        <!-- Unlocked content -->
+        <div class="protected-content" id="career-plan-content" hidden>
+          <p class="section-intro">
+            Focused on measurable delivery and business-adjacent outcomes, this plan charts a path from team-level delivery excellence to portfolio-level leadership.
+          </p>
 
-          <div class="phase-card">
-            <div class="phase-header">
-              <span class="phase-badge">Phase 1</span>
+          <div class="card plan-direction">
+            <h3>Long-Term Career Direction</h3>
+            <div class="two-col direction-grid">
               <div>
-                <h3>Foundation Upgrade</h3>
-                <span class="phase-period">Q2/2026 – Q1/2027</span>
+                <strong class="direction-label">Primary path</strong>
+                <p class="direction-path">Senior Delivery Manager → Delivery Director → Head of Delivery</p>
+              </div>
+              <div>
+                <strong class="direction-label">Alternative path</strong>
+                <p class="direction-path">Program Manager → Senior Program Manager → Transformation Lead</p>
               </div>
             </div>
-            <p class="phase-objective">Move from team-level delivery excellence to portfolio-ready delivery leadership.</p>
-            <h4>Actions</h4>
-            <ul>
-              <li>Complete PSM I and PSM II certification.</li>
-              <li>Build and maintain a monthly Delivery KPI dashboard.</li>
-              <li>Standardise quarterly planning and risk review cadence.</li>
-              <li>Document measurable case studies from current product journey.</li>
-            </ul>
-            <h4>Target KPIs</h4>
-            <ul>
-              <li>Sprint predictability: maintain or improve commitment reliability.</li>
-              <li>Delivery flow: improve cycle time and lead time trend.</li>
-              <li>Reliability: maintain high service availability and reduce incident recurrence.</li>
-              <li>Quality: reduce escaped defects and improve release confidence.</li>
-            </ul>
           </div>
 
-          <div class="phase-card">
-            <div class="phase-header">
-              <span class="phase-badge">Phase 2</span>
-              <div>
-                <h3>Scope Expansion</h3>
-                <span class="phase-period">Q2/2027 – Q4/2028</span>
+          <div class="phases">
+
+            <div class="phase-card phase-active">
+              <div class="phase-header">
+                <span class="phase-badge">Phase 1</span>
+                <div>
+                  <h3>Foundation Upgrade <span class="phase-now-badge">● Active Now</span></h3>
+                  <span class="phase-period">Q2/2026 – Q1/2027</span>
+                </div>
               </div>
+              <p class="phase-objective">Move from team-level delivery excellence to portfolio-ready delivery leadership.</p>
+              <h4>Actions</h4>
+              <ul>
+                <li>Complete PSM I and PSM II certification.</li>
+                <li>Build and maintain a monthly Delivery KPI dashboard.</li>
+                <li>Standardise quarterly planning and risk review cadence.</li>
+                <li>Document measurable case studies from current product journey.</li>
+              </ul>
+              <h4>Target KPIs</h4>
+              <ul>
+                <li>Sprint predictability: maintain or improve commitment reliability.</li>
+                <li>Delivery flow: improve cycle time and lead time trend.</li>
+                <li>Reliability: maintain high service availability and reduce incident recurrence.</li>
+                <li>Quality: reduce escaped defects and improve release confidence.</li>
+              </ul>
             </div>
-            <p class="phase-objective">Demonstrate leadership beyond one team through cross-team and cross-function impact.</p>
-            <h4>Actions</h4>
-            <ul>
-              <li>Take ownership of dependency management across multiple squads.</li>
-              <li>Lead a quarterly business review with Product/Engineering stakeholders.</li>
-              <li>Mentor at least 1–2 Scrum Masters or team leads.</li>
-              <li>Introduce risk governance (risk register, mitigation tracking, escalation protocol).</li>
-            </ul>
-            <h4>Target Outcomes</h4>
-            <ul>
-              <li>Stronger cross-team planning accuracy.</li>
-              <li>Faster and more stable release cadence.</li>
-              <li>Better stakeholder confidence and decision turnaround.</li>
-              <li>Clear evidence of organisational impact beyond team-level execution.</li>
-            </ul>
-          </div>
 
-          <div class="phase-card">
-            <div class="phase-header">
-              <span class="phase-badge">Phase 3</span>
-              <div>
-                <h3>Strategic Transition</h3>
-                <span class="phase-period">2029 – 2031</span>
+            <div class="phase-card">
+              <div class="phase-header">
+                <span class="phase-badge">Phase 2</span>
+                <div>
+                  <h3>Scope Expansion</h3>
+                  <span class="phase-period">Q2/2027 – Q4/2028</span>
+                </div>
               </div>
+              <p class="phase-objective">Demonstrate leadership beyond one team through cross-team and cross-function impact.</p>
+              <h4>Actions</h4>
+              <ul>
+                <li>Take ownership of dependency management across multiple squads.</li>
+                <li>Lead a quarterly business review with Product/Engineering stakeholders.</li>
+                <li>Mentor at least 1–2 Scrum Masters or team leads.</li>
+                <li>Introduce risk governance (risk register, mitigation tracking, escalation protocol).</li>
+              </ul>
+              <h4>Target Outcomes</h4>
+              <ul>
+                <li>Stronger cross-team planning accuracy.</li>
+                <li>Faster and more stable release cadence.</li>
+                <li>Better stakeholder confidence and decision turnaround.</li>
+                <li>Clear evidence of organisational impact beyond team-level execution.</li>
+              </ul>
             </div>
-            <p class="phase-objective">Transition from delivery execution leader to strategic delivery owner.</p>
-            <h4>Actions</h4>
-            <ul>
-              <li>Pursue PMP certification (or equivalent program leadership credential).</li>
-              <li>Co-own annual roadmap planning with Product and Engineering leadership.</li>
-              <li>Expand responsibility to account-level delivery health and client satisfaction.</li>
-              <li>Build internal playbooks for scaling delivery practices.</li>
-            </ul>
-            <p class="phase-target"><strong>Role Target by 2031:</strong> Senior Delivery Manager / Program Manager with multi-team scope and clear strategic ownership.</p>
-          </div>
 
-          <div class="phase-card">
-            <div class="phase-header">
-              <span class="phase-badge">Phase 4</span>
-              <div>
-                <h3>Leadership Consolidation</h3>
-                <span class="phase-period">2032 – 2035</span>
+            <div class="phase-card">
+              <div class="phase-header">
+                <span class="phase-badge">Phase 3</span>
+                <div>
+                  <h3>Strategic Transition</h3>
+                  <span class="phase-period">2029 – 2031</span>
+                </div>
               </div>
+              <p class="phase-objective">Transition from delivery execution leader to strategic delivery owner.</p>
+              <h4>Actions</h4>
+              <ul>
+                <li>Pursue PMP certification (or equivalent program leadership credential).</li>
+                <li>Co-own annual roadmap planning with Product and Engineering leadership.</li>
+                <li>Expand responsibility to account-level delivery health and client satisfaction.</li>
+                <li>Build internal playbooks for scaling delivery practices.</li>
+              </ul>
+              <p class="phase-target"><strong>Role Target by 2031:</strong> Senior Delivery Manager / Program Manager with multi-team scope and clear strategic ownership.</p>
             </div>
-            <p class="phase-objective">Establish capability for Delivery Director / Head of Delivery level.</p>
-            <h4>Actions</h4>
-            <ul>
-              <li>Lead portfolio-level governance across multiple products and accounts.</li>
-              <li>Develop and coach next-line delivery leaders.</li>
-              <li>Standardise operating model, metrics, and review rituals at department level.</li>
-              <li>Contribute to pre-sales, solution discussions, and strategic client growth planning.</li>
-            </ul>
-            <p class="phase-target"><strong>Role Target by 2035:</strong> Delivery Director / Head of Delivery with recognised impact on organisational delivery performance and client outcomes.</p>
+
+            <div class="phase-card">
+              <div class="phase-header">
+                <span class="phase-badge">Phase 4</span>
+                <div>
+                  <h3>Leadership Consolidation</h3>
+                  <span class="phase-period">2032 – 2035</span>
+                </div>
+              </div>
+              <p class="phase-objective">Establish capability for Delivery Director / Head of Delivery level.</p>
+              <h4>Actions</h4>
+              <ul>
+                <li>Lead portfolio-level governance across multiple products and accounts.</li>
+                <li>Develop and coach next-line delivery leaders.</li>
+                <li>Standardise operating model, metrics, and review rituals at department level.</li>
+                <li>Contribute to pre-sales, solution discussions, and strategic client growth planning.</li>
+              </ul>
+              <p class="phase-target"><strong>Role Target by 2035:</strong> Delivery Director / Head of Delivery with recognised impact on organisational delivery performance and client outcomes.</p>
+            </div>
+
           </div>
 
-        </div>
-
-        <div class="card" style="margin-top:1.75rem;">
-          <h3>Learning Roadmap</h3>
-          <div class="tech-tags" style="margin-top:0.75rem;">
-            <span class="tech-tag">PSM I</span>
-            <span class="tech-tag">PSM II</span>
-            <span class="tech-tag">PMP</span>
-            <span class="tech-tag">Program Management</span>
-            <span class="tech-tag">Stakeholder Influence</span>
-            <span class="tech-tag">Financial Literacy</span>
-            <span class="tech-tag">Executive Communication</span>
-            <span class="tech-tag">Data-Driven Delivery</span>
-            <span class="tech-tag">Change Leadership</span>
+          <div class="card learning-roadmap">
+            <h3>Learning Roadmap</h3>
+            <div class="tech-tags">
+              <span class="tech-tag">PSM I</span>
+              <span class="tech-tag">PSM II</span>
+              <span class="tech-tag">PMP</span>
+              <span class="tech-tag">Program Management</span>
+              <span class="tech-tag">Stakeholder Influence</span>
+              <span class="tech-tag">Financial Literacy</span>
+              <span class="tech-tag">Executive Communication</span>
+              <span class="tech-tag">Data-Driven Delivery</span>
+              <span class="tech-tag">Change Leadership</span>
+            </div>
           </div>
-        </div>
 
+        </div><!-- /protected-content -->
       </div>
     </section>
 
-    <!-- ===== AI Learning & Career Acceleration ===== -->
+    <!-- ===== AI Learning & Career Acceleration (PROTECTED) ===== -->
     <section class="section" id="ai-learning">
       <div class="container">
-        <h2>AI Learning &amp; Career Acceleration (2026)</h2>
-        <p class="section-intro">
-          Leveraging Coursera and AI tooling to accelerate growth from Delivery Manager to Senior Delivery Manager / Program-level leadership with measurable outcomes.
-        </p>
 
-        <div class="two-col">
-          <div class="card">
-            <h3>Coursera Learning Plan</h3>
-            <ul>
-              <li>AI for Software Development <em>(in progress)</em></li>
-              <li>Google Project Management Professional Certificate</li>
-              <li>Generative AI for Everyone (DeepLearning.AI)</li>
-              <li>Google Data Analytics (or IBM Data Analyst equivalent)</li>
-              <li>Cloud Fundamentals (AWS / GCP / Azure)</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Skills to Demonstrate</h3>
-            <ul>
-              <li>Build a monthly Delivery KPI dashboard (predictability, lead time, defects, MTTR, SLA).</li>
-              <li>Run quarterly planning and risk governance with decision-oriented reporting.</li>
-              <li>Translate delivery metrics into stakeholder-friendly business impact statements.</li>
-              <li>Produce reusable STAR case studies for CV, interviews, and promotion reviews.</li>
-            </ul>
+        <div class="protected-header">
+          <h2>AI Learning &amp; Career Acceleration (2026)</h2>
+          <button class="unlock-btn" data-section="ai-learning" aria-label="Unlock AI Learning section">
+            <span class="lock-icon" aria-hidden="true">🔒</span> Unlock
+          </button>
+        </div>
+
+        <!-- Locked state -->
+        <div class="protected-gate" id="ai-learning-gate">
+          <div class="gate-content">
+            <span class="gate-icon" aria-hidden="true">🔒</span>
+            <p>Personal learning plan &amp; AI workflow — password protected.</p>
+            <button class="unlock-btn-large" data-section="ai-learning">Unlock to View</button>
           </div>
         </div>
 
-        <div class="card" style="margin-top:1.75rem;">
-          <h3>Annual Success Criteria (End of 2026)</h3>
-          <ul>
-            <li>Complete at least 2 high-impact learning tracks.</li>
-            <li>Maintain a consistent monthly KPI reporting habit.</li>
-            <li>Produce at least 4 strong STAR case studies.</li>
-            <li>Improve market readiness for Senior Delivery Manager opportunities.</li>
-          </ul>
-        </div>
+        <!-- Unlocked content -->
+        <div class="protected-content" id="ai-learning-content" hidden>
+          <p class="section-intro">
+            Leveraging Coursera and AI tooling to accelerate growth from Delivery Manager to Senior Delivery Manager / Program-level leadership with measurable outcomes.
+          </p>
 
+          <div class="two-col">
+            <div class="card">
+              <h3>Coursera Learning Plan</h3>
+              <ul class="course-list">
+                <li>
+                  <span class="status-badge in-progress">In Progress</span>
+                  AI for Software Development
+                </li>
+                <li>
+                  <span class="status-badge pending">Pending</span>
+                  Google Project Management Professional Certificate
+                </li>
+                <li>
+                  <span class="status-badge pending">Pending</span>
+                  Generative AI for Everyone (DeepLearning.AI)
+                </li>
+                <li>
+                  <span class="status-badge pending">Pending</span>
+                  Google Data Analytics (or IBM Data Analyst equivalent)
+                </li>
+                <li>
+                  <span class="status-badge pending">Pending</span>
+                  Cloud Fundamentals (AWS / GCP / Azure)
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Skills to Demonstrate</h3>
+              <ul>
+                <li>Build a monthly Delivery KPI dashboard (predictability, lead time, defects, MTTR, SLA).</li>
+                <li>Run quarterly planning and risk governance with decision-oriented reporting.</li>
+                <li>Translate delivery metrics into stakeholder-friendly business impact statements.</li>
+                <li>Produce reusable STAR case studies for CV, interviews, and promotion reviews.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Claude Prompt Pack -->
+          <div class="card prompt-pack">
+            <h3>Claude Prompt Pack — Weekly Scrumban Workflow</h3>
+            <p class="prompt-context-note">
+              <strong>Paste before each prompt:</strong> "We are running Scrumban. We do not use fixed sprint goals. Work is task-flow based. Release schedule is every Monday and Thursday. Prioritize delivery reliability, risk visibility, and cross-team coordination."
+            </p>
+
+            <div class="prompt-list">
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">Mon / Thu</span> Release Readiness Check</summary>
+                <div class="prompt-body">
+                  <p>Act as a senior Delivery Manager assistant. Using the task list below, prepare a release readiness report for the next deployment (Monday or Thursday):</p>
+                  <ol>
+                    <li>Tasks ready for release</li>
+                    <li>Tasks at risk</li>
+                    <li>Blockers / dependencies</li>
+                    <li>Rollback / prevention checklist</li>
+                    <li>Final go/no-go recommendation with reasons</li>
+                  </ol>
+                  <p>Keep it concise and actionable.</p>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">Tue</span> Mid-Week Flow Health Review</summary>
+                <div class="prompt-body">
+                  <p>Analyze this Scrumban board snapshot and identify:</p>
+                  <ol>
+                    <li>WIP bottlenecks</li>
+                    <li>Aging tasks</li>
+                    <li>Throughput risks before next deployment</li>
+                    <li>Top 3 flow improvement actions for the next 3 working days</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">Wed</span> Dependency &amp; Escalation Planner</summary>
+                <div class="prompt-body">
+                  <p>From the tasks below, detect cross-team dependencies and produce:</p>
+                  <ol>
+                    <li>Dependency map</li>
+                    <li>Risk level (high / medium / low)</li>
+                    <li>Escalation plan with owner and deadline</li>
+                    <li>Fallback options if dependency misses Monday/Thursday release</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">Fri</span> Executive Status Update</summary>
+                <div class="prompt-body">
+                  <p>Draft an executive weekly delivery update without using sprint terms. Structure:</p>
+                  <ol>
+                    <li>Delivered in last Monday/Thursday releases</li>
+                    <li>Currently in progress</li>
+                    <li>Top risks and mitigation</li>
+                    <li>Decisions needed from leadership</li>
+                    <li>Confidence level for next release windows</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">As needed</span> Stakeholder Communication Rewriter</summary>
+                <div class="prompt-body">
+                  <p>Rewrite this delivery message in 3 versions: neutral, assertive, executive. Keep facts unchanged. Include clear ask, owner, and due date. Avoid technical jargon unless necessary.</p>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">Wed</span> Release Scope Trade-Off Advisor</summary>
+                <div class="prompt-body">
+                  <p>Given limited capacity for the next Monday/Thursday deployment, prioritize tasks using business impact, risk, dependency, and effort. Return:</p>
+                  <ol>
+                    <li>Include now</li>
+                    <li>Defer</li>
+                    <li>Must-discuss trade-offs</li>
+                    <li>Impact of each option</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">As needed</span> Incident &amp; Stability Review</summary>
+                <div class="prompt-body">
+                  <p>Based on recent incidents and deployment notes, generate:</p>
+                  <ol>
+                    <li>Recurring failure patterns</li>
+                    <li>Probable root causes</li>
+                    <li>Preventive actions before next release</li>
+                    <li>Owner-by-owner action list with target date</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">As needed</span> Team Action Plan (7 Days)</summary>
+                <div class="prompt-body">
+                  <p>Create a 7-day execution plan aligned to Monday/Thursday releases. Include:</p>
+                  <ol>
+                    <li>Daily priorities</li>
+                    <li>Dependency checkpoints</li>
+                    <li>Risk review moments</li>
+                    <li>Release cut-off and QA validation points</li>
+                  </ol>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">As needed</span> Interview / CV Evidence Converter</summary>
+                <div class="prompt-body">
+                  <p>Convert these raw delivery achievements into quantified STAR bullets for Senior Delivery Manager interviews. Focus on flow efficiency, release reliability, cross-team leadership, and stakeholder impact (no P&amp;L claims).</p>
+                </div>
+              </details>
+
+              <details class="prompt-item">
+                <summary><span class="prompt-tag">Fri</span> Monthly Leadership Reflection</summary>
+                <div class="prompt-body">
+                  <p>Review my monthly notes and generate:</p>
+                  <ol>
+                    <li>Key leadership wins</li>
+                    <li>Missed opportunities</li>
+                    <li>Capability gaps to improve</li>
+                    <li>30-day learning and execution plan</li>
+                    <li>3 measurable commitments for next month</li>
+                  </ol>
+                </div>
+              </details>
+
+            </div><!-- /prompt-list -->
+          </div><!-- /prompt-pack -->
+
+          <div class="card annual-criteria">
+            <h3>Annual Success Criteria (End of 2026)</h3>
+            <ul>
+              <li>Complete at least 2 high-impact learning tracks.</li>
+              <li>Maintain a consistent monthly KPI reporting habit.</li>
+              <li>Produce at least 4 strong STAR case studies.</li>
+              <li>Improve market readiness for Senior Delivery Manager opportunities.</li>
+            </ul>
+          </div>
+
+        </div><!-- /protected-content -->
       </div>
     </section>
 
   </main>
 
-  <!-- ===== Footer ===== -->
-  <footer>
+  <!-- ===== Footer / Contact ===== -->
+  <footer id="contact">
     <div class="container">
       <p>
         &copy; 2026 Nguyễn Tấn Hưng (Robert) &ndash; Delivery Manager / Scrum Master &nbsp;|&nbsp;
@@ -495,5 +651,22 @@
     </div>
   </footer>
 
+  <!-- ===== Auth Modal ===== -->
+  <div class="auth-overlay" id="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title" hidden>
+    <div class="auth-modal">
+      <button class="auth-close" id="auth-close" aria-label="Close">&times;</button>
+      <div class="auth-icon" aria-hidden="true">🔒</div>
+      <h3 id="auth-title">Protected Section</h3>
+      <p id="auth-desc" class="auth-desc">Enter your password to unlock private content.</p>
+      <div class="auth-field">
+        <input type="password" id="auth-input" placeholder="Enter password" autocomplete="current-password" />
+      </div>
+      <button class="auth-submit" id="auth-submit">Unlock</button>
+      <p class="auth-error" id="auth-error" aria-live="polite"></p>
+      <p class="auth-hint" id="auth-hint"></p>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
 </body>
 </html>
