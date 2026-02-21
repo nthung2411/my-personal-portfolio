@@ -330,6 +330,121 @@ header.hero .title {
   font-weight: 600;
 }
 
+/* --- Section intro ---------------------- */
+.section-intro {
+  font-size: 0.98rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  max-width: 860px;
+}
+
+/* --- Career phase cards ----------------- */
+.phases {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.phase-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 1.5rem;
+  border-left: 4px solid #3182ce;
+}
+
+.phase-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.phase-badge {
+  background-color: #3182ce;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  margin-top: 0.15rem;
+}
+
+.phase-header h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin: 0 0 0.15rem;
+}
+
+.phase-period {
+  font-size: 0.82rem;
+  color: #718096;
+  font-weight: 600;
+}
+
+.phase-objective {
+  font-size: 0.93rem;
+  color: #4a5568;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.phase-card h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #2b6cb0;
+  margin-top: 0.75rem;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.phase-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0.25rem;
+}
+
+.phase-card ul li {
+  padding: 0.2rem 0;
+  padding-left: 1.25rem;
+  position: relative;
+  font-size: 0.92rem;
+  color: #4a5568;
+}
+
+.phase-card ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #3182ce;
+}
+
+.phase-target {
+  margin-top: 0.75rem;
+  font-size: 0.92rem;
+  color: #2d3748;
+  background: #ebf8ff;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+}
+
+.plan-direction strong {
+  display: block;
+  font-size: 0.85rem;
+  color: #2b6cb0;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 0.25rem;
+}
+
+.plan-direction p {
+  font-size: 0.93rem;
+  color: #4a5568;
+}
+
 /* --- Footer ----------------------------- */
 footer {
   background-color: #1a365d;
